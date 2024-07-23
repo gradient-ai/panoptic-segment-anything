@@ -1,5 +1,6 @@
 # Zero-shot panoptic segmentation using SAM
-
+> **Getting Started:**
+> [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/gradient-ai/panoptic-segment-anything?machine=Free-GPU)
 
 <a target="_blank" href="https://huggingface.co/spaces/segments/panoptic-segment-anything">
   <img 
