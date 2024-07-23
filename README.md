@@ -1,10 +1,8 @@
 # Zero-shot panoptic segmentation using SAM
 
-<a target="_blank" href="https://colab.research.google.com/github/segments-ai/panoptic-segment-anything/blob/master/panoptic-segment-anything.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+
 <a target="_blank" href="https://huggingface.co/spaces/segments/panoptic-segment-anything">
-  <img src="https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565" alt="Open In Colab"/>
+  <img 
 </a>
 
 This is a proof of concept for zero-shot panoptic segmentation using the [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything). 
@@ -17,7 +15,7 @@ To solve these challenges we use the following additional models:
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO), a zero-shot object detector
 - [CLIPSeg](https://github.com/timojl/clipseg), a zero-shot (binary) segmentation model
 
-You can try out the pipeline by running the [notebook in Colab](https://colab.research.google.com/github/segments-ai/panoptic-segment-anything/blob/master/panoptic-segment-anything.ipynb) or by trying out the [Gradio demo on Hugging Face Spaces](https://huggingface.co/spaces/segments/panoptic-segment-anything).
+You can try out the pipeline by trying out the [Gradio demo on Hugging Face Spaces](https://huggingface.co/spaces/segments/panoptic-segment-anything).
 
 The notebook also shows how the predictions from this pipeline can be uploaded to [Segments.ai](https://segments.ai/) as pre-labels, where you can adjust them to obtain perfect labels for fine-tuning your segmentation model.
 
